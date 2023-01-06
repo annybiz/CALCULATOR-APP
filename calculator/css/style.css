@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	font:bold 18px tahoma, Arial;
+}
+html{
+	height: 100%;
+	background: #fff;
+	background: radial-gradient(circle, blue 20%, lightblue);
+}
+.head{
+	width: 100px;
+	font: bold 24px;
+	text-align: center;
+	padding: 10px !important;
+	/*text-shadow: 5px 4px 2px rgba(0,0,0, 0.2);*/
+}
+#cal{
+	width: 450px;
+	height: auto;
+	margin: 120px auto;
+	border: none;
+	background-color: #ccc;
+	background: linear-gradient(#ccc, #86bad2);
+	border-radius: 10px;
+	box-shadow: 3px 4px #333, 3px 10px 15px purple;
+}
+.upper span.clear{
+	float: right;
+}
+.upper .screen{
+	height: 50px;
+	width: 350px;
+	padding: 0px 12px;
+	background: rgba(0,0,0, 0.2);
+	box-shadow: inset 0px 4px rgba(0,0,0,0.2);
+	font-size: 20px;
+	line-height: 50px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0,0,0, 0.2);
+	text-align: right;
+	margin-left: -23px;
+}
+.buttons, .upper, .head{
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+}
+.buttons span,.upper span.clear{
+	float: right;
+	position: relative;
+	top: 0;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	background: blue;
+	border-radius: 3px;
+	margin: 10px 10px 20px 0;
+	box-shadow: 0px 4px rgba(0,0,0, 0.2);
+	color: #888;
+	line-height: 40px;
+	user-select: none;
+	cursor: pointer;
+}
+.clear{
+	background: red !important;
+	box-shadow: 3px 4px rgba(0,0,0, 0.2);
+}
+.sign{
+	background: #ff7c87;
+	box-shadow: 0px 4px #EAE2E3;
+}
+span:hover{
+	background: indigo;
+	box-shadow: 3px 4px darkviolet;
+}
+.off{
+	background: red !important;
+	box-shadow: 3px 4px rgba(0,0,0, 0.2);
+}
+
